@@ -3,6 +3,28 @@
 	background-color: rgb(230, 230, 250);
 }
 
+.navbar {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(230, 230, 250);
+  margin-bottom: 50px;
+}
+.navbar--logotipo img {
+  width: 160px;
+  height: 50px;
+}
+.navbar--menu a {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+}
+.navbar--menu .active {
+  font-weight: bold;
+}
+
 .redes-sociais ul li {
   margin-left: 5px;
   display: inline-block;
@@ -51,4 +73,27 @@
   width: 100%;
   float: left;
   position: relative;
+}
+
+@media (max-width:1024px) {
+    .navbar {
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-bottom: 70px;
+    }
+}
+@media (max-width:768px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .navbar--menu {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+}
+@media (max-width:452px) {
+    .navbar {
+      padding-left: 0;
+      padding-right: 0;
+    }
 }
