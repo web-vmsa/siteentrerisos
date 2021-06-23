@@ -20,6 +20,11 @@
   margin-left: 40px;
   margin-right: 40px;
   color: black;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+.navbar--menu a:hover {
+  border-bottom: 2px solid black;
 }
 .navbar--menu .active {
   font-weight: bold;
