@@ -1,0 +1,54 @@
+#barra_logo {
+	/*background-color: #F7F7F7;*/
+	background-color: rgb(230, 230, 250);
+}
+
+.redes-sociais ul li {
+  margin-left: 5px;
+  display: inline-block;
+  float: left;
+}
+.redes-sociais {
+  width: 35%;
+  float: right;
+}
+
+
+.nav-2 {
+  background-color: white;
+  width: 980px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.menu-urls {
+  border-bottom: 3px solid #efefef;
+  height: 80px;
+}
+.menu ul li {
+  display: inline-block;
+  color: #b5b5b5;
+  margin-left: 15px;
+  height: 50px;
+}
+.menu ul li:hover {
+  border-bottom: 2px solid #00bac6;
+}
+.menu ul li a:hover {
+  color: #00bac6;
+}
+.menu ul li a {
+  color: #b5b5b5;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.menu {
+  width: 70%;
+  float: left;
+}
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
