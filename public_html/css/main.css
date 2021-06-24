@@ -80,6 +80,16 @@
   position: relative;
 }
 
+
+.galerias {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-img-top {
+  height: 250px;
+}
+
 @media (max-width:1024px) {
     .navbar {
       padding-left: 50px;
@@ -95,10 +105,24 @@
       margin-top: 20px;
       margin-bottom: 20px;
     }
+    .navbar--menu a {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .galerias {
+      flex-direction: column;
+    }
+    .card {
+      margin-bottom: 40px;
+    }
 }
 @media (max-width:452px) {
     .navbar {
       padding-left: 0;
       padding-right: 0;
+    }
+    .navbar--menu a {
+      margin-left: 10px;
+      margin-right: 10px;
     }
 }
